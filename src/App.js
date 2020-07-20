@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
         <div className={classes.root}>
-          <Grid container spacing={3}>
+          <Grid container spacing={2} style={{overflowX: 'hidden'}}>
             <Grid item lg={8} md={12} xs={12}>
               <Paper className={classes.paper}>
                 <Video />
